@@ -1,9 +1,9 @@
-# Personal Contact Manager
+# Contactasaurus
 *COP4331 - Processes of Object-Oriented Software Development*
 <br> Link to Website: [Contactasaurus](http://contactasaurus.com/)
 
 ## Description
-(description here)
+A personal contact manager for (description here)
 
 ## Contributors
 Project Manager - [Megan Carlson](https://github.com/meglc)
