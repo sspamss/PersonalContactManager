@@ -3,7 +3,8 @@
 <br> Link to Website: [website](add website link)
 
 ## Description
-<br> (description here)
+(description here)
+
 ## Contributors
 Project Manager - [Megan Carlson](https://github.com/meglc)
 <br> Database - [Pam Kitsuwan](https://github.com/sspamss)
