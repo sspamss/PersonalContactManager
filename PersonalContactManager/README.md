@@ -1,6 +1,8 @@
 # Personal Contact Manager
 *COP4331 - Processes of Object-Oriented Software Development*
 <br> Link to Website: [website](add website link)
+## Description
+<br> (description here)
 
 ## Contributors
 Project Manager - [Megan Carlson](https://github.com/meglc)
