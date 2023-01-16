@@ -1,6 +1,6 @@
 # Personal Contact Manager
 *COP4331 - Processes of Object-Oriented Software Development*
-<br> Link to Website: [website](http://contactasaurus.com/)
+<br> Link to Website: [Contactasaurus](http://contactasaurus.com/)
 
 ## Description
 (description here)
