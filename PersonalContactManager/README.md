@@ -3,7 +3,9 @@
 <br> Link to Website: [Contactasaurus](http://contactasaurus.com/)
 
 ## Description
-A personal contact manager for (description here)
+A specialized personal contact manager for employees and staff members working at museums.
+
+Each new user will need a login. If a user does not already own an account, a signup block will prompt up. If not, they can proceed to sign in. Each user will be able to add their own contacts in which they can also delete, edit, and search for contacts.
 
 ## Contributors
 Project Manager - [Megan Carlson](https://github.com/meglc)
