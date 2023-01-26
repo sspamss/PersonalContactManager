@@ -1,0 +1,104 @@
+
+body 
+{
+    background-color: #BAA796;
+    font-family: 'Otomanopee One';font-size: 22px;
+    padding: 100px
+}
+.welcome_div
+{ 
+    padding-top: 150px;
+    text-align: center;
+}
+.welcome_text, .bottom-text1
+{
+    font-family: 'Karla';font-size: 48px;
+    margin: 0px;
+}
+
+.main_div
+{
+    text-align: center;
+    margin-top: 5px;
+}
+.main_text
+{
+    color: #73A16C;
+    font-family: 'Otomanopee One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 86px;
+    background:none;
+    border:none;
+    cursor: pointer;
+    float: center;
+    text-decoration:none;
+}
+
+.main_text:hover{
+    color: #AC9C64
+}
+
+.bottom_div
+{
+    text-align: center;
+}
+.bottom-text1
+{
+    margin: 0px;
+    font-size: 48px;
+}
+
+
+/*
+body{
+    background-color: #BAA796;
+    padding: 300px;
+    text-align: center;
+}
+
+p{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    color: #000000;
+    margin: 0;
+    text-align: center;
+}
+
+.btn {
+    color: #73A16C;
+    font-family: 'Otomanopee One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 90px;
+    background:none;
+    border:none;
+    cursor: pointer;
+    float: center;
+    margin: 0;
+}
+
+a {
+    color: #73A16C;
+    font-family: 'Otomanopee One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 86px;
+    background:none;
+    border:none;
+    cursor: pointer;
+    float: center;
+    text-decoration:none;
+}
+
+a:hover{
+    color: #AC9C64;
+}
+
+*/
