@@ -1,37 +1,40 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <title>Opening</title>
+        <title>Login</title>
         <link href='https://fonts.googleapis.com/css?family=Otomanopee One' rel='stylesheet'>
         <link href='https://fonts.googleapis.com/css?family=Karla' rel='stylesheet'>
         <link rel="stylesheet" href="css/login.css">
-    </head>
-    <body>
+        <script type="text/javascript" src="js/code.js"></script>
+        <script type="text/javascript" src="js/md5.js"></script>
+        <script type="text/javascript" src="js/validate.js"></script>
 
+
+
+    <body>
+        
         <div class="nav">
-            <h1>CONTACTSARUS</h1>
+                <h1 class="welcome-title">
+                    <img id="pt-dino" src="images/pt-dino.png" alt="mista dino"> 
+                    <a href="contacts.html"> CONTACTASAURUS </a>
+                    <img id="t-dino" src="images/dino-logo.png" alt="mista dino"> 
+                </h1>
         </div>
 
-        <form> 
-            <p class="adventure-text">Adventure Awaits!</p>
-            
-            <div class="search-div">
-                <input class="search-box" type="text" placeholder="USERNAME">
-            </div>
+        <p class="welcome-text">WELCOME BACK!</p>
+        <p class="adventure-text">Adventure Awaits!</p>
 
-            <div class="search-div">
-                <input class="search-box" type="password" placeholder="PASSWORD">
-            </div>
+        <div class="search-div">
+            <input class="search-box" type="text" id="userName" placeholder="USERNAME" required onblur="checkUsername()"/>
+        </div>
 
-            <div class="login-button">
-                <button class="button">LOGIN</button>
-            </div>
-
-            <div class = "register-link">
-                <a href = "register.html" class = "register-text">Register here</a>
-            </div>
-
-        </form>
+        <div class="search-div">
+            <input class="search-box" type="password" id="password" placeholder="PASSWORD" onblur="checkPassword()">
+        </div>
+    
+        <button type="button" class="button" id="signUpButton" onclick="doLogin();">LOGIN</button>
         
+        <span class="span" id="loginResult"></span>        
+
     </body>
 </html>
