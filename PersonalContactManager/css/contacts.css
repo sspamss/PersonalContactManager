@@ -1,6 +1,7 @@
 body 
 {
-    background-color: #baac9b;
+    /* background-color: #baac9b; */
+    background-color: #BAA796;
     font-family: 'Otomanopee One';font-size: 22px;
     line-height: 1.6;
 }
@@ -201,7 +202,7 @@ form
  form label
  {
      font-weight: 500;
-     opacity: 0.7;
+     /* opacity: 0.7; */
  }
  form label, form input
  {
@@ -359,7 +360,6 @@ a:visited
     margin: 30px 0;
     box-shadow: 0px 0px 3px 0px rgba(1, 0, 1, 1);
     -webkit-box-shadow: 0px 0px 2px 0px rgba(1, 0, 1, 1);
-    /* -moz-box-shadow: 0px 0px 6px 0px rgba(8, 0, 1, 1); */
     color: rgb(65 54 54);
 }
 .record-input > h2, .record-display > h2
@@ -392,7 +392,7 @@ a:visited
 
 }
 
-.tbl-content {
+.content-table {
     height: 460px;
     overflow-x: auto;
     margin-top: 0px;
@@ -406,11 +406,11 @@ a:visited
     border: .5px solid rgb(0, 0, 0);
 }
 
-#contacts th {
+#contacts th 
+{
     padding: 20px 15px;
     text-align: left;
     font-family: 'Karla';
-    font-weight: 500;
     font-size: 18px;
     font-weight: bold;
     background-color: #9fad8f;;
@@ -421,7 +421,8 @@ a:visited
 
 
 
-#contacts td span {
+#contacts td span 
+{
     /* font-family: 'Karla'; */
     /* font-weight: 500; */
     font-size: 16px;
@@ -431,7 +432,8 @@ a:visited
     color: black;
 }
 
-#navbar {
+#navbar 
+{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -439,18 +441,21 @@ a:visited
     padding: 0 20px;
   }
   
-  #logo {
+  #logo 
+  {
     font-size: 75px;
   }
   
-  #welcome {
+  #welcome 
+  {
     padding-top: 30px;
     font-size: 60px;
     text-align: center;
     flex-grow: 1;
   }
   
-  #logout {
+  #logout 
+  {
     font-size: 20px;
     text-align: right;
   }
@@ -470,3 +475,31 @@ a:visited
 {
     text-align: center;
 }
+
+#b-dino
+{
+    padding-left: 20px;
+    padding-top: 60px;
+    height: 120px;
+    border: none;
+    border-radius: 8px;
+    /* cursor: pointer; */
+    transition: opacity 0.35, color 0.35s;
+    box-shadow:  5px 5px 10px black(0, 0, 0, .15);
+    transition: box-shadow 0.15s;
+    transition: background-color 0.15s;
+    display: flex;
+    align-items: center;
+}
+
+#t-dino
+{   
+    width: 10%;
+    height: 10%;
+} 
+
+#pt-dino
+{   
+    width: 10%;
+    height: 10%;
+} 
