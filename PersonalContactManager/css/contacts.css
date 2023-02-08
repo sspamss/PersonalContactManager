@@ -360,7 +360,6 @@ a:visited
     margin: 30px 0;
     box-shadow: 0px 0px 3px 0px rgba(1, 0, 1, 1);
     -webkit-box-shadow: 0px 0px 2px 0px rgba(1, 0, 1, 1);
-    color: rgb(65 54 54);
 }
 .record-input > h2, .record-display > h2
 {
@@ -373,6 +372,7 @@ a:visited
     color: rgb(65 54 54);
     background: #baac9b;
 }
+
 .record-display
 {
     background: #baac9b;
@@ -389,6 +389,11 @@ a:visited
     -webkit-border-radius: 5px;
     border-radius: 5px;
     border-radius: 10px;
+}
+
+table
+{
+    border: 1;
 }
 
 .content-table {
@@ -424,8 +429,6 @@ a:visited
 
 #contacts td span 
 {
-    /* font-family: 'Karla'; */
-    /* font-weight: 500; */
     font-size: 16px;
     display: block;
     white-space: nowrap;
