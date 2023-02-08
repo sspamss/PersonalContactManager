@@ -1,85 +1,40 @@
-/*
-body{
-    background-color: #BAA796;
-}
-
-h1{
-    font-family: 'Karla';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 75px;
-    line-height: 50px;
-    text-align: center;
-    margin-bottom: 0;
-}
-
-h2{
-    font-family: 'Karla';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 50px;
-    line-height: 50px;
-    text-align: center;
-    margin-top: 0;
-}
-
-.input-fields{
-    margin: auto;
-    width: 30%;
-    padding: 10px;
-    align-items: center;
-}
-
-input{
-    border-radius: 17px;
-    font-family: 'Karla';
-    outline: 0;
-    background: #f2f2f2;
-    width: 50%;
-    border: 2;
-    margin: 0 0 15px;
-    padding: 15px;
-    box-sizing: border-box;
-    font-size: 20px;
-    text-align: center;   
-    justify-content: center;
-}
-
-.btn{
-    width: 50%;
-    font-family: 'Karla';
-    border-radius: 17px;
-    font-size: 20px;
-}
-
-.btn:hover{
-    background-color:#73A16C;
-}
-
-*/
-
 body
 {
     background-color: #BAA796;
     margin-bottom: 200px;
 }
+
 h1
 {
-    font-size: 70px;
+    font-size: 65px;
+    color: black;
     text-align: center;
     font-family: 'Otomanopee One';
 }
 
+h1:hover
+{
+    color: rgb(236, 227, 227);
+}
+
+a 
+{
+    text-decoration: none;
+}
+
 .nav
 {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
+
 .welcome-text
 {
     text-align: center;
-    font-family: 'Karla';font-size: 68px;
+    font-family: 'Karla';font-size: 60px;
     margin-bottom: 5px;
+    margin-top: 0;
 }
+
 .adventure-text
 {
     margin-top: 5px;
@@ -87,6 +42,7 @@ h1
     font-family: 'Karla';font-size: 48px;
 
 }
+
 .search-box
 {
     font-family: 'Karla';
@@ -95,6 +51,7 @@ h1
     border: none;
     border-radius: 6px;
 }
+
 .search-div
 {
     text-align: center;
@@ -115,6 +72,23 @@ h1
     background-color: rgb(255, 255, 255);
     border: none;
     border-radius: 8px;
+    cursor: pointer;
+    transition: opacity 0.35, color 0.35s;
+    box-shadow:  5px 5px 10px black(0, 0, 0, .15);
+    transition: box-shadow 0.15s;
+    transition: background-color 0.15s;
+}
+
+.button:hover
+{
+    /*background-color: rgb(192, 192, 251);*/
+    background-color: #70B841;
+    color: rgb(255, 255, 255);
+
+}
+.button:active
+{
+    opacity: 0.7;
 }
 
 .register-text
@@ -122,3 +96,38 @@ h1
     text-align: center;
 }
 
+span
+{
+    font-family: 'Karla';
+    display: block;
+    font-size: 25px;
+    color: rgb(7, 7, 7);
+    text-align: center;
+}
+
+#t-dino
+{   
+    width: 10%;
+    height: 10%;
+} 
+
+#pt-dino
+{   
+    width: 10%;
+    height: 10%;
+} 
+
+a
+{
+    color: black;
+}
+
+a:visited
+{
+    color: black;
+}
+
+a:hover
+{
+    color:rgb(255, 255, 255)
+}
