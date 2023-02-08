@@ -13,8 +13,8 @@
         <script type="text/javascript">
             document.addEventListener('DOMContentLoaded', function ()
             {
-                 readCookie();
-                 loadContacts();
+                readCookie();
+                loadContacts();
             }, false);
         </script>
 
@@ -22,16 +22,16 @@
     <body>
 
         <div id="navbar">
-            <span style="color:#000000" id="userName"></span><br />
+            <!-- <span style="color:#000000" id="userName"></span><br /> -->
+            <img id="b-dino" src="images/baby-logo.png" alt="mista dino"> 
             <div id="welcome">Contactasaurus</div>
             <div id="logout"><button id="addContactButton" type="button" onclick="doLogout();">Logout</button></div>
           </div>
 
 
-
-            <div class="search-contact">
-                <span style="color:#000000" id="userName"></span><br />
-            </div> 
+        <div class="search-contact">
+            <span style="color:#000000;padding-top:10px" id="userName"></span><br />
+        </div> 
 
         <div class = "main-container">
             
@@ -46,19 +46,17 @@
                         <label for = "Last Name">Last Name</label>
                         <input type = "text" id="lastNameTable" placeholder="Last Name" required>
 
+                        <label for = "Email">Email</label>
+                        <input type = "text" id="emailTable" placeholder="Email">
+
                         <label for = "Phone">Phone Number</label>
                         <input type = "text" id="phoneNumber" placeholder="Phone Number">
                         
-                        <label for = "Email">Email</label>
-                        <input type = "text" id="emailTable" placeholder="Email">
-                        
                         <div class = "input-btns">
                             <button type="button" id="addContactButton" class="buttons font" onclick="addContact();"> Add Contact</button>
-                            <!-- <button type="button" id="addContactButton" class="buttons font" onclick="resetContact();"> Reset</button> -->
                             <span id="contactAdded"></span>
                         </div> 
                     </form>
-
                     <span class = "message"></span>
                 </div>
 
@@ -67,7 +65,11 @@
             <div class = "record-display">
                 <div class="line-div">
                     <div class="line"></div>
-                    <div style="display:inline-block;"><h2>Available Contacts </h2></div>
+                    <div style="display:inline-block;">
+                        <h2>
+                            Available Contacts 
+                        </h2>
+                    </div>
                     <div class="line"></div>
                 </div>
 
@@ -77,15 +79,15 @@
 
                 <div class = "record-container"  style="overflow-y:auto">
                     <div class="tables">
-                        <div class="tbl-content" id="contactsTable">
+                        <div class="content-table" id="contactsTable">
                             <table id="contacts">
                                 <thead>
                                     <tr>
-                                        <th>First&nbspName</th>
-                                        <th>Last&nbspName</th>
+                                        <th>First Name</th>
+                                        <th>Last Name</th>
                                         <th>Email</th>
                                         <th>Phone</th>
-                                        <th>EDIT</th>
+                                        <th>EDIT/SAVE/DELETE</th>
                                     </tr>
                                 </thread>
                                 <tbody id="tableInformation"></tbody>
@@ -93,9 +95,9 @@
                         </div>
                     </div>
                 </div>
-
+                
             </div>
-
+            <span id="popup"></span>
 
         </div>
 
