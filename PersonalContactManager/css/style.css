@@ -1,0 +1,236 @@
+body 
+{
+    background-color: #BAA796;
+    font-family: 'Otomanopee One';font-size: 22px;
+    padding: 30px;
+}
+
+.welcome_div
+{ 
+    padding-top: 70px;
+    text-align: center;
+}
+
+a 
+{
+    text-decoration: none;
+    color:black;
+}
+
+a:visited
+{
+    text-decoration: none;
+    color:black;
+}
+
+.welcome_text, .bottom-text1
+{
+    font-family: 'Karla';font-size: 35px;
+    margin: 0px;
+}
+
+.main_div
+{
+    text-align: center;
+    margin-top: 5px;
+}
+
+.main_text
+{
+    display: inline-block;
+    margin: 0px;
+    font-size: 75px;
+}
+
+.bottom_div
+{
+    text-align: center;
+}
+
+.bottom-text1
+{
+    margin: 0px;
+    font-size: 35px;
+}
+
+.enter
+{
+    text-align: center;
+}
+
+.button
+{
+    display: block;
+    margin: 0 auto;
+    font-family: 'Karla';
+    font-size: 30px;
+    height:50px;
+    width: 350px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: opacity 0.35, color 0.35s;
+    box-shadow:  5px 5px 10px black(0, 0, 0, .15);
+    transition: box-shadow 0.15s;
+    transition: background-color 0.15s;
+}
+
+
+
+.button:active
+{
+    opacity: 0.7;
+}
+
+.search-box
+{
+    font-family: 'Karla';
+    font-size: 40px;
+    text-align: center;
+    border: none;
+    border-radius: 6px;
+}
+
+.search-div
+{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.login-button
+{
+    text-align: center;
+}
+
+.button:hover
+{
+    /*background-color: rgb(192, 192, 251);*/
+    background-color: #70B841;
+    color: rgb(255, 255, 255);
+
+}
+
+.button:active
+{
+    opacity: 0.7;
+}
+
+.register-text
+{
+    text-align: center;
+}
+
+.register-button
+{
+    padding-top: 20px;
+    text-align: center;
+}
+
+.enter
+{
+    text-align: center;
+}
+
+.span
+{
+    margin: auto;
+    display: table;
+    padding-top: 10px;
+    
+    font-size: 100px;
+    color: blue;
+}
+
+.login-div
+{
+    margin: 45px;
+}
+
+.divider 
+{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+  
+.divider::after,
+.divider::before 
+{
+    content: "";
+    border: 1px solid black;
+    flex: 1;
+}
+
+.divider:not(:empty)::before
+{
+    margin-right: 0.25em;
+}
+
+.divider:not(:empty)::after 
+{
+    margin-left: 0.25em;
+}
+
+.div-text
+{
+    font-family: 'Karla';
+    font-size: 20px;
+}
+
+.line 
+{
+    width: 53px;
+    height: 0;
+    border: 1px solid #C4C4C4;
+    margin: 3px;
+    display:inline-block;
+    text-align: center;
+  }
+
+.line-div
+{
+    text-align: center;
+}
+
+h1:hover
+{
+    color: rgb(236, 227, 227);
+}
+
+#t-dino
+{   
+    width: 10%;
+    height: 10%;
+} 
+
+#pt-dino
+{
+    width: 20%;
+    height: 20%;
+    padding: 0;
+    margin: 0;
+}
+
+.welcome-div
+{
+    text-align: center;
+    font-size: 60px;
+    padding: 0;
+    margin: 0;
+
+}
+
+.welcome-text
+{
+    color: black;
+    font-size: 60px;
+    padding: 0;
+    margin: 0;
+}
+
+img
+{
+    padding: 0;
+    margin: 0;
+}
