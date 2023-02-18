@@ -5,7 +5,7 @@
 ## Description
 Contactasaurus is a specialized personal contact manager for museum managers to keep track of their employees.
 
-Each new user will need a login. If a user does not already own an account, a signup block will prompt up. If not, they can proceed to sign in. Each user will be able to add their own contacts in which they can delete, edit, and search for contacts.
+Each new user will need a login. If a user does not already own an account, a sign-up block will prompt up. Otherwise, they can proceed to sign-in. Each user will be able to create their own contacts in which they can delete, edit, and search for for their contacts as needed.
 
 ## Contributors
 Project Manager - [Megan Carlson](https://github.com/meglc)
