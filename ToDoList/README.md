@@ -1,1 +1,16 @@
-hi
+# ToDoListNameHere
+*COP4331 - Processes of Object-Oriented Software Development*
+<br> Link to Website: [ToDoListNameHere](ToDoListLinkHere)
+
+## Description
+ToDoListProjectDescriptionHere
+
+ToDoListProjectDescriptionLongExplainationHere
+
+## Contributors
+Project Manager - [Kyle ________]()
+<br> Database - [James Ko](InsertGitHubLinkHere)
+<br> API 1 - [Pranav Nair](https://github.com/pranavjnair123)
+<br> Front-End Website 1 - [Pam Kitsuwan](https://github.com/sspamss)
+<br> Front-End Website 2 - [Emmanuelle "Alex" Rebosura](https://github.com/justarandomidiot1)
+<br> Front-End Mobile 1 - [Ethan Adkins](https://github.com/EthanAdkins)
