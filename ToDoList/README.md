@@ -8,7 +8,7 @@ ToDoListProjectDescriptionHere
 ToDoListProjectDescriptionLongExplainationHere
 
 ## Contributors
-Project Manager - [Kyle ________](InsertGitHubLinkHere)
+Project Manager - [Kyle Franklin](https://github.com/KyleFranklin)
 <br> Database - [James Ko](InsertGitHubLinkHere)
 <br> API 1 - [Pranav Nair](https://github.com/pranavjnair123)
 <br> Front-End Website 1 - [Pam Kitsuwan](https://github.com/sspamss)
