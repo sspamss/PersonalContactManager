@@ -1,6 +1,6 @@
 # Contactasaurus
 *COP4331 - Processes of Object-Oriented Software Development*
-<br> Link to Website: [Contactasaurus](http://contactasaurus.com/)
+<br> Link to Website: [Contactasaurus](http://contactasaurus.com/) (database is down right now)
 
 ## Description
 Contactasaurus is a specialized personal contact manager for museum managers to keep track of their employees.
